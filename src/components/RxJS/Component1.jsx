@@ -13,8 +13,8 @@ const Component1 = () => {
 
   return (
     <div>
-      <button onClick={handleClick} >Enviar info</button>
-      <button onClick={handleClickNo} >No Enviar info</button>
+      <button onClick={handleClick} >Sumar</button>
+      <button onClick={handleClickNo} >Restar</button>
       </div>
   )
 }

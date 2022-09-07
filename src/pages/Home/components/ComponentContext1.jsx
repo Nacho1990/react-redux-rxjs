@@ -3,7 +3,7 @@ import { useHomeContext } from "../context/home.context";
 function ComponentContext1() {
   const { setHomeContextValue } = useHomeContext();
   
-  const handleClick = () => setHomeContextValue();
+  const handleClick = () => setHomeContextValue({title: 'hola'});
   const handleClick2 = () => setHomeContextValue({});
   
 
